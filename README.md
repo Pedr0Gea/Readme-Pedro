@@ -82,3 +82,24 @@ O cadastro de marcas deve possuir os seguintes arquivos
 | salva_marcas.php  | Arquivo que atualiza os dados da marca na tabela  |
 ---
 
+### Criação da tabela modelos
+
+´´´sql
+CREATE TABLE `oficina_mecanica`.`tb_modelos` (
+    `codigo` INT NOT NULL AUTO_INCREMENT , 
+    `descricao` VARCHAR(40) NOT NULL , 
+    `cod_marca` INT NOT NULL ,
+    PRIMARY KEY (`codigo`));
+```
+
+### Organização dos arquivos
+O cadastro de marcas deve possuir os seguintes arquivos
+| Arquivo  | Descrição |
+| ------------- | ------------- |
+| form_modelo.php  | Formulário para cadastro de marca  |
+| inclui_modelo.php  | Arquivo que insere os dados da marca na tabela  |
+| listamodelos.php  | Arquivo que exibe o cadastro de marcas  |
+| editamodelo.php  | Formulário para alteração do cadastro de marca  |
+| salva_modelo.php  | Arquivo que atualiza os dados da marca na tabela  |
+---
+

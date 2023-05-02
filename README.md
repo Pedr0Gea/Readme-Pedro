@@ -84,9 +84,8 @@ O cadastro de marcas deve possuir os seguintes arquivos
 
 ### Criação da tabela modelos
 
-´´´sql
-CREATE TABLE `oficina_mecanica`.`tb_modelos` (
-    `codigo` INT NOT NULL AUTO_INCREMENT , 
+```sql
+`codigo` INT NOT NULL AUTO_INCREMENT , 
     `descricao` VARCHAR(40) NOT NULL , 
     `cod_marca` INT NOT NULL ,
     PRIMARY KEY (`codigo`));

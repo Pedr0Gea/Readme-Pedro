@@ -1,7 +1,7 @@
 # Projeto da oficina mecânica do Pedrão
 
 ## Aplicação
-Vamos criar uma aplicação para gerenciar uma oficina mecãica.
+Vamos criar uma aplicação para gerenciar uma oficina mecãnica.
 
 ## Tecnologias utilizadas
 Para a construção da aplicação usaremos as linguagens , HTML, CSS, PHP, MYQSL e JavaScript.
@@ -31,7 +31,7 @@ O cadastro de peças deve possuir os seguintes arquivos
 | form_peca.php  | Formulário para cadastro de peça  |
 | inclui_peca.php  | Arquivo que insere os dados da peça na tabela  |
 | lista_peca.php  | Arquivo que exibe o cadastro de peça  |
-| edita_peca.php  | Formulário para alteração do cadastro de peça  |
+| editapeca.php  | Formulário para alteração do cadastro de peça  |
 | salva_peca.php  | Arquivo que atualiza os dados da peça na tabela  |
 --- 
 
@@ -97,8 +97,8 @@ O cadastro de marcas deve possuir os seguintes arquivos
 | ------------- | ------------- |
 | form_modelo.php  | Formulário para cadastro de marca  |
 | inclui_modelo.php  | Arquivo que insere os dados da marca na tabela  |
-| listamodelos.php  | Arquivo que exibe o cadastro de marcas  |
+| lista_modelos.php  | Arquivo que exibe o cadastro de marcas  |
 | editamodelo.php  | Formulário para alteração do cadastro de marca  |
-| salva_modelo.php  | Arquivo que atualiza os dados da marca na tabela  |
+| salva_modelos.php  | Arquivo que atualiza os dados da marca na tabela  |
 ---
 

@@ -103,7 +103,7 @@ O cadastro de marcas deve possuir os seguintes arquivos
 | salva_modelos.php  | Arquivo que atualiza os dados da marca na tabela  |
 ---
 
-### Veículos
+### Criação da tabela veículos
 
 ```sql
 CREATE TABLE `oficina_mecanica`.`tb_veiculos` (

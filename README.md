@@ -84,11 +84,13 @@ O cadastro de marcas deve possuir os seguintes arquivos
 
 ### Criação da tabela modelos
 
+```sql
 CREATE TABLE `oficina_mecanica`.`tb_modelos` (
     `codigo` INT NOT NULL AUTO_INCREMENT , 
     `descricao` VARCHAR(40) NOT NULL , 
     `cod_marca` INT NOT NULL ,
     PRIMARY KEY (`codigo`));
+```
 
 ### Organização dos arquivos
 O cadastro de marcas deve possuir os seguintes arquivos
@@ -121,4 +123,5 @@ O cadastro de veículos deve possuir os seguintes arquivos
 | lista_veiculos.php  | Arquivo que exibe o cadastro de veículos  |
 | editacliente.php  | Formulário para alteração do cadastro de veículo  |
 | salva_cliente.php  | Arquivo que atualiza os dados do veículo na tabela  |
+---
 

@@ -1,7 +1,7 @@
 # Projeto da oficina mecânica do Pedrão
 
 ## Aplicação
-Vamos criar uma aplicação para gerenciar uma oficina mecãnica.
+Vamos criar uma aplicação para gerenciar uma oficina mecânica.
 
 ## Tecnologias utilizadas
 Para a construção da aplicação usaremos as linguagens , HTML, CSS, PHP, MYQSL e JavaScript.
@@ -84,12 +84,11 @@ O cadastro de marcas deve possuir os seguintes arquivos
 
 ### Criação da tabela modelos
 
-```sql
-`codigo` INT NOT NULL AUTO_INCREMENT , 
+CREATE TABLE `oficina_mecanica`.`tb_modelos` (
+    `codigo` INT NOT NULL AUTO_INCREMENT , 
     `descricao` VARCHAR(40) NOT NULL , 
     `cod_marca` INT NOT NULL ,
     PRIMARY KEY (`codigo`));
-```
 
 ### Organização dos arquivos
 O cadastro de marcas deve possuir os seguintes arquivos
@@ -101,4 +100,25 @@ O cadastro de marcas deve possuir os seguintes arquivos
 | editamodelo.php  | Formulário para alteração do cadastro de marca  |
 | salva_modelos.php  | Arquivo que atualiza os dados da marca na tabela  |
 ---
+
+### Veículos
+
+```sql
+CREATE TABLE `oficina_mecanica`.`tb_veiculos` (
+    `codigo` INT NOT NULL AUTO_INCREMENT , 
+    `placa` VARCHAR(10) NOT NULL , 
+    `cod_modelo` INT NOT NULL ,
+    `cor` VARCHAR(20) , 
+     PRIMARY KEY (`codigo`));
+```
+
+#### Organização dos arquivos (veículos)
+O cadastro de veículos deve possuir os seguintes arquivos
+| Arquivo  | Descrição |
+| ------------- | ------------- |
+| form_veiculo.php  | Formulário para cadastro de veículo  |
+| inclui_veiculo.php  | Arquivo que insere os dados do veículo na tabela  |
+| lista_veiculos.php  | Arquivo que exibe o cadastro de veículos  |
+| editacliente.php  | Formulário para alteração do cadastro de veículo  |
+| salva_cliente.php  | Arquivo que atualiza os dados do veículo na tabela  |
 

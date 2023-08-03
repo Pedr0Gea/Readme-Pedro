@@ -121,7 +121,7 @@ O cadastro de veículos deve possuir os seguintes arquivos
 | form_veiculo.php  | Formulário para cadastro de veículo  |
 | inclui_veiculo.php  | Arquivo que insere os dados do veículo na tabela  |
 | lista_veiculos.php  | Arquivo que exibe o cadastro de veículos  |
-| editacliente.php  | Formulário para alteração do cadastro de veículo  |
-| salva_cliente.php  | Arquivo que atualiza os dados do veículo na tabela  |
+| editaveiculo.php  | Formulário para alteração do cadastro de veículo  |
+| salva_veiculos.php  | Arquivo que atualiza os dados do veículo na tabela  |
 ---
 
